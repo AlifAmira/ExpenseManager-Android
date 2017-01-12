@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic6"
+    android:weightSum="1"
+    >
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expense Item Name"
+        android:id="@+id/expitem"
+        android:background="#ffffff5d"
+        android:textSize="25sp"
+        android:textColor="#fb3f2cff"
+        android:layout_weight="0.05" />
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Shopping"
+        android:id="@+id/shop"
+        android:layout_weight="0.03"
+        android:textSize="25sp"
+        android:background="#ffffff5d"
+        android:onClick="shopping" />
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Medical"
+        android:id="@+id/med"
+        android:layout_weight="0.03"
+        android:textSize="25sp"
+        android:background="#fffffd73"
+        android:onClick="medical" />
+
+     <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+      android:layout_marginTop="3dp"
+        android:text="Education"
+        android:id="@+id/edu"
+        android:layout_weight="0.03"
+        android:textSize="25sp"
+        android:background="#fffffc66"
+        android:onClick="educational" />
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Entertainment"
+        android:id="@+id/entmnt"
+       android:layout_marginTop="3dp"
+        android:layout_weight="0.03"
+        android:textSize="25sp"
+        android:background="#fffffc6a"
+        android:onClick="entertainment" />
+
+ <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+     android:layout_marginTop="3dp"
+        android:text="Travel"
+        android:id="@+id/travel"
+        android:layout_weight="0.03"
+        android:textSize="25sp"
+        android:background="#fffcff5b"
+        android:onClick="travel" />
+
+ <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="3dp"
+        android:text="Utility service"
+        android:id="@+id/us"
+        android:layout_weight="0.03"
+        android:textSize="25sp"
+        android:background="#fff9ff73"
+        android:onClick="utility" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:hint="Total                                    0.0"
+        android:id="@+id/totalexp"
+        android:layout_weight="0.17"
+        android:background="#fffffdbb"
+        android:textSize="25sp"
+        android:textColor="#f73f2cff" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/expencetracker"
+    tools:context=".menu">
+    >
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="100dp"
+        android:text="INCOME"
+        android:id="@+id/income"
+        android:textSize="30dp"
+        android:layout_marginLeft="70dp"
+        android:background="#eafefffd"
+        android:onClick="income" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="EXPENSE"
+        android:id="@+id/exp"
+        android:textSize="30dp"
+        android:layout_marginLeft="70dp"
+        android:background="#eafefffd"
+        android:onClick="expense" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="CALCULATOR"
+        android:id="@+id/cal"
+        android:textSize="30dp"
+        android:layout_marginLeft="70dp"
+        android:background="#eafefffd"
+        android:onClick="calculator" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="NOTEPAD"
+        android:id="@+id/note"
+        android:textSize="30dp"
+        android:layout_marginLeft="70dp"
+        android:background="#eafefffd"
+        android:onClick="Notepad" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="REPORT"
+        android:id="@+id/report"
+        android:textSize="30dp"
+        android:layout_marginLeft="70dp"
+        android:background="#eafefffd"
+        android:onClick="Report" />
+
+    >
+
+</LinearLayout>

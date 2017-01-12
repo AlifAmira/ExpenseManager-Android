@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.expensemanager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+    <package-verifier />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.expensemanager.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="password"></activity>
+        <activity android:name="incomeitems"></activity>
+        <activity android:name="menu"></activity>
+        <activity android:name="expenseitems"></activity>
+        <activity android:name="notepad"></activity>
+        <activity android:name="report"></activity>
+        <activity android:name="salary"></activity>
+        <activity android:name="investment"></activity>
+        <activity android:name="selling"></activity>
+        <activity android:name="profit"></activity>
+        <activity android:name="property"></activity>
+        <activity android:name="education"></activity>
+        <activity android:name="entertainment"></activity>
+        <activity android:name="medical"></activity>
+        <activity android:name="travel"></activity>
+        <activity android:name="utility"></activity>
+        <activity android:name="shopping"></activity>
+    </application>
+
+</manifest>

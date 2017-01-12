@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter  Amount"
+        android:id="@+id/entamnttrv"
+        android:layout_weight="0.08"
+        android:textColor="#003f2c"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtamnttrv"
+        android:layout_weight="0.20"
+        android:background="#e1f6ebfd"
+        android:textColor="#003f2c"
+        android:hint="0.0"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Date"
+        android:id="@+id/entdtetrv"
+        android:layout_weight="0.05"
+        android:textSize="20dp"
+        android:textColor="#003f2c"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtdtetrv"
+        android:layout_weight="0.20"
+        android:background="#e1f6ebfd"
+        android:textColor="#003f2c"
+        android:hint="0.0"
+        android:textSize="20dp"
+        />
+
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="end"
+        android:id="@+id/savetrv"
+        android:textSize="20sp"
+        android:background="#e1f6ebfd" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end"
+        android:text="Edit"
+        android:id="@+id/edttrv"
+        android:layout_weight="0.03"
+        android:textSize="20sp"
+        android:background="#e1f6ebfd" />
+
+    <Button
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end"
+
+        android:text="Delete"
+        android:id="@+id/dlttrv"
+        android:layout_weight="0.03"
+        android:textSize="20sp"
+        android:background="#e1f6ebfd" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Current balance          0.0"
+        android:layout_marginTop="20dp"
+        android:id="@+id/crnttrv"
+
+        android:background="#e1f6ebfd"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/i2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    
+        android:text="  Income Item name"
+        android:id="@+id/incomeitem"
+        android:background="#ff3cff7a"
+        android:textSize="30dp"
+        android:textColor="#f93f2cff" />
+
+    <Button
+        android:id="@+id/salary"
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:background="#ff3cff7a"
+        android:onClick="salary"
+         android:layout_marginTop="20dp"
+        android:text="Salary"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/invest"
+        
+        android:background="#ff3cff7a"
+        android:text="Investment"
+        android:textSize="20sp"
+        android:onClick="invest"
+         />
+
+
+    <Button
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/selling"
+       
+        android:background="#ff3cff7a"
+        android:text="Selling"
+        android:textSize="20sp"
+        android:onClick="selling" />
+
+    <Button
+        android:id="@+id/property"
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+       
+        android:background="#ff3cff7a"
+        android:onClick="property"
+        android:text="Property"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/profit"
+       
+        android:background="#ff3cff7a"
+        android:text="Profit"
+        android:textSize="20sp" 
+        android:onClick="profit"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/resultincome"
+        
+        android:background="#ff3cff7a"
+        android:text="Total"
+        android:hint="0.0"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
+

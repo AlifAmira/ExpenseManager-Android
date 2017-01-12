@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtnote"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#fffff9b7"
+        android:ems="10"
+        android:hint="@string/write_here"
+        android:textSize="20sp" />
+
+    
+
+    <Button
+
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:id="@+id/saven"
+        android:background="#ff2e21ff"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+
+
+        />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:id="@+id/edtn"
+        android:background="#ff3f2cff"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:id="@+id/dltn"
+        android:textSize="20sp"
+        android:background="#ff3f2cff"
+        android:layout_marginTop="10dp"
+
+         />
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Show Previous note"
+        android:id="@+id/shwn"
+        android:textSize="20sp"
+        android:background="#ff3f2cff"
+        android:layout_marginTop="10dp"
+
+         />
+</LinearLayout>
